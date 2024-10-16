@@ -40,7 +40,9 @@ Once finished, note the following parameters. These will be used to configured N
 
 Enter the following configuration parameters in `configuration.py`, substituting your own values:
 
-```python
+# TODO: Enable Okta backend auth
+
+```python 
 REMOTE_AUTH_BACKEND = 'social_core.backends.okta_openidconnect.OktaOpenIdConnect'
 SOCIAL_AUTH_OKTA_OPENIDCONNECT_KEY = '{Client ID}'
 SOCIAL_AUTH_OKTA_OPENIDCONNECT_SECRET = '{Client secret}'

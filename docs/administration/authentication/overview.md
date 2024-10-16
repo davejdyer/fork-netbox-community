@@ -33,6 +33,9 @@ Optionally, user profile information can be supplied by `REMOTE_USER_FIRST_NAME`
 
 ### Single Sign-On (SSO)
 
+# TODO: Enable Okta backend auth
+
+
 ```python
 REMOTE_AUTH_BACKEND = 'social_core.backends.google.GoogleOAuth2'
 ```
@@ -52,6 +55,8 @@ The `display_name` is the name displayed to the user on the login page. The
 icon may either be the URL of an icon; refer to a [Material Design
 Icons](https://github.com/google/material-design-icons) icon's name; or be
 `None` for no icon.
+
+# TODO: Enable Okta backend auth
 
 For instance, the OIDC backend may be customized with
 ```python
